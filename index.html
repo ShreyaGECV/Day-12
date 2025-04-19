@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.bhu.ac.in/Images/images/bhu-logo.png" type="image/png">
+
+
+    <title>Banaras - The Spiritual City</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color:#FFDDAB;
+            color: #333;
+        }
+
+        header {
+            background: #8B0000;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+		.logo img {
+    height: 70px;
+    margin-bottom: 0.5rem;
+}
+
+
+        nav {
+            background: #B22222;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #FF6347;
+        }
+
+        .hero {
+            background-image: url("https://images.unsplash.com/photo-1706186839147-0d708602587b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmFyYW5hc2klMjBnaGF0fGVufDB8fDB8fHww");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 8px #000;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section h2 {
+            margin-bottom: 1rem;
+            color: #8B0000;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+			text-align:center;
+        }
+
+        .card {
+            background: #C1CFA1;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #8B0000;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+	      <div class="logo">
+        <img src="https://www.bhu.ac.in/Images/images/bhu-logo.png" alt="" />
+      </div>
+        <h1>Banaras - The Spiritual Heart of India</h1>
+    </header>
+
+    <nav>
+        <a href="#ghats">Ghats</a>
+        <a href="#temples">Temples</a>
+        <a href="#culture">Culture</a>
+        <a href="#food">Food</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome to the City of Light - Banaras</h1>
+    </section>
+
+    <div class="container">
+        <section class="section" id="ghats">
+            <h2>Famous Ghats</h2>
+            <div class="grid">
+                <div class="card">Dashashwamedh Ghat</div>
+                <div class="card">Manikarnika Ghat</div>
+                <div class="card">Assi Ghat</div>
+            </div>
+        </section>
+
+        <section class="section" id="temples">
+            <h2>Temples</h2>
+            <div class="grid">
+                <div class="card">Kashi Vishwanath Temple</div>
+                <div class="card">Sankat Mochan Hanuman Temple</div>
+                <div class="card">Durga Temple</div>
+            </div>
+        </section>
+
+        <section class="section" id="culture">
+            <h2>Culture & Festivals</h2>
+            <p>Banaras is known for its vibrant festivals like Dev Deepawali, Ganga Aarti, and Holi. Music, dance, and art thrive in every corner of the city.Varanasi, a city steeped in history and spirituality, celebrates a vibrant array of festivals throughout the year, many of which are dedicated to the Hindu faith and the sacred Ganges River. Some of the most notable festivals include Mahashivratri, Holi, Dev Deepavali, and the Ganga Mahotsav. These festivals offer a rich tapestry of cultural experiences, from religious processions and rituals to musical performances and vibrant celebrations. </p>
+        </section>
+
+        <section class="section" id="food">
+            <h2>Street Food</h2>
+            <p>Varanasi is renowned for its diverse and flavorful street food scene. Some of the most popular and iconic dishes include Kachori Sabzi, Aloo Kachori, Baati Chokha, Malaiyo, and Tamatar Chaat. Other noteworthy street foods include Choora Matar, Laaiya Channa, and Dahi Chutney Golgappe. For a refreshing treat, Lassi and Thandai are also highly sought after. </p>
+        </section>
+    </div>
+
+    <footer>
+        <p> 2025 Discover Banaras | Designed with Shreya singh❤️</p>
+    </footer>
+</body>
+
+</html>
